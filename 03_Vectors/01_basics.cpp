@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    //Demo
+    // Demo
     vector<int> arr = {1,2,3,5};
     cout << "Number if elements in arr: " << arr.size() << endl;
     cout << "Capacity of arr: " << arr.capacity() << endl;

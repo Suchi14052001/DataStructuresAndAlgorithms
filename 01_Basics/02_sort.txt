@@ -2,8 +2,12 @@ Inbuilt sort function -> O(nLogn)
 Bubble sort, Selection sort, Insertion sort -> O(n^2)
 Merge sort, Quick sort, Heap sort -> O(nLogn)
 
+#include <algorithm>
+
 Sort an array containing N integers
 sort(arr, arr +n)
 
 Sort a vector containing N integers
 sort(arr.begin(), arr.end())
+
+Inbuilt sort function uses introsort

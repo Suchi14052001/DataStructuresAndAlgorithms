@@ -1,0 +1,52 @@
+Amount of space/time taken by the algorithm to run as a function of input size
+
+For experimental analysis, you can use #include <ctime>
+For the part you want to record time, you can perform clock() before and after the operation. It returns the answer in milliseconds
+Increase n by factor of 10 each time and record the time. Plot the graph
+Starttime and Endtime will have clock_t datatype
+
+for(int i=0; i<=n-1; i=i+j){
+	for(int j=0; j<=k; j++){
+		// Constant work
+	}
+	// Here, value of j = k
+}
+// For this, complexity = (N/k)*k = O(N)
+
+For binary search, to calculate time complexity, calculate the number of times loop runs or number of steps
+In step 0, N/2^0
+In step 1, N/2^1
+In step 2, N/2^2
+..
+In step k, N/2^k
+Finally, this N/2^k = 1 as binary search gets to one element. 
+Hence k = logN to the base 2
+
+For the same thing in mathematical induction
+T(N) = k + T(N/2). Constant work k is for finding midpoint
+After solving, you get T(N) = klogN = O(logN)
+
+For merge sort,
+T(N) = k + T(N/2) + T(N/2) + kN
+Solving it using mathematical induction/substitution -> T(N) = kNLogN = O(NlogN)
+
+For power function,
+it can be done using function calls which take O(N)
+or 2^5 = 2.(2^2)^2 and 2^6 = (2^3)^2, takes O(logN)
+
+For evaluation of polynomials, 
+if you calculate power using O(N), then this takes O(N^2)
+if you calculate power using O(logN), then this takes O(NlogN)
+if you store value of a^2, you can use it to compute value of a^3 at next step, it takes O(N)
+
+For fibonacii series, 
+if you are doing it recursively like f(n) = f(n-1) + f(n-2), then O(2^n) (can be visualised using recursion tree)
+By applying top down DP, you get O(N)
+
+For recursive problems, 
+TOTAL TIME = NUMBER OF CALLS * WORK DONE IN EACH CALL 
+SPACE COMPLEXITY = MAX DEPTH OF CALL STACK * EXTRA MEMORY USED IN EACH STACK FRAME
+
+In DP problems, 
+Time complexity = Number of unique states * Time taken for each state
+Time complexity for top-down & bottom-up is the same, space complexity is also approximately the same

@@ -1,8 +1,14 @@
 Hashtables, Sets and Maps
 
 Datastructure specialised to store data in the form of Key Value pairs -> Hashtable
-Supports insertion, erase and search operations in O(1) time on an average
+Supports insertion, erase, update and search operations in O(1) time on an average (We talk about average case as 99% cases fall in this category)
 Key value pairs of a Hashtable are not ordered
 
 Class to create Hashtable in C++ is Unordered_Maps, Unordered_sets
 Unordered_Maps store both key and value pairs whereas Unordered_sets store only keys
+
+Maps and Sets are balanced Binary Search Trees (BST). Their implementation is different from that of a Hashtable
+Above operations take O(Logn) time here
+
+For Unordered_Maps, results are generated in random order. Internally, hashing with separate chaining is performed
+If you want sorted results in lexicographical order, you can use maps in the same way as above (Will be sorted according to keys)
