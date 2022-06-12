@@ -1,0 +1,8 @@
+Hashtables, Sets and Maps
+
+Datastructure specialised to store data in the form of Key Value pairs -> Hashtable
+Supports insertion, erase and search operations in O(1) time on an average
+Key value pairs of a Hashtable are not ordered
+
+Class to create Hashtable in C++ is Unordered_Maps, Unordered_sets
+Unordered_Maps store both key and value pairs whereas Unordered_sets store only keys

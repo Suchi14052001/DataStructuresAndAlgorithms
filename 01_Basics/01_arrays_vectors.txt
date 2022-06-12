@@ -1,0 +1,5 @@
+Arrays are collection of elements of the same type placed in contiguous memory locations
+Eg: int a[] = {1, 2, 3};
+
+Vector is a dynamic array. It is a sequence container that can change in size. 
+Vectors are passed by value to a function (You are sending copy of a vector)
