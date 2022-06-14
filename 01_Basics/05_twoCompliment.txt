@@ -1,0 +1,7 @@
+Negative Numbers are stored as 2 compliment
+Most Significant Bit 1 represents that its a negative number
+
+For the example, 
+11111111111111111111111111111111
+If you take 2s compliment of remaining 31 bits ie invert all bits and add one,
+You will get 1, and since MSB is 1 so this number represents -1
