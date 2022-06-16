@@ -27,6 +27,6 @@ int maxSubarraySum(vector<int> arr){
 
 int main(){
 	vector<int> arr = {-1, 2, 3, 4, -2, 6, -8, 3};
-	cout << "Sum of maximum subarray is: " << maxSubarraySum(arr);
+	cout << "Sum of maximum subarray is: " << maxSubarraySum(arr) << endl;
 	return 0; 
 }

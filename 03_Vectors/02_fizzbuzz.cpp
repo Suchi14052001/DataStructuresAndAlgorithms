@@ -5,8 +5,9 @@ for multiples of 5 -> store Buzz instead of number
 for multiples of both 3 & 5 -> store FizzBuzz
 */
 
-#include<vector>
-#include<string>
+#include <vector>
+#include <string>
+#include <iostream>
 using namespace std;
 
 vector<string> fizzbuzz(int n){
@@ -25,4 +26,10 @@ vector<string> fizzbuzz(int n){
     }
 
     return result;   
+}
+
+int main(){
+    vector<string> result = fizzbuzz(6);
+    for(auto element: result)
+        cout << element << endl;
 }
