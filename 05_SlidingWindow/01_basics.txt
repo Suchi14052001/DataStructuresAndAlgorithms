@@ -1,0 +1,9 @@
+Helps in solving problems related to arrays and strings and helps us to reduce complexity from O(n^2) to O(n)
+
+Type - I: Fixed Window of length k
+Here the length of the window is fixed and we need to find something in that window
+Eg: find largest element in every window (say k=3)
+
+Type - II: Two pointers + Criteria
+Here the window size is not fixed. Generally we are asked to find the subarray that meets the criteria
+Eg: Given an array of integers, find the number of subarrays whose sum is equal to a target value
