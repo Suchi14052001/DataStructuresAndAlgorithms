@@ -42,7 +42,7 @@ pair<int, int> subarraySort(vector<int> arr){
 		j--;
 	
 	if(i==(int)(arr.size()-1))
-		result.first = -1, result.second = 1;
+		result.first = -1, result.second = -1;
 	else{
 		result.first = i;
 		result.second = j;

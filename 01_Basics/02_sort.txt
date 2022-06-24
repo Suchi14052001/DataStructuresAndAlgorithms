@@ -11,3 +11,6 @@ Sort a vector containing N integers
 sort(arr.begin(), arr.end())
 
 Inbuilt sort function uses introsort
+Introsort begins with quicksort, it switches to heapsort when the recursion depth exceeds a level based on 
+(the logarithm of) the number of elements being sorted and it switches to insertion sort when the number of 
+elements is below some threshold
