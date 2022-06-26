@@ -1,0 +1,5 @@
+* Function overloading can be done in CPP
+* Function name of two different functions can be the same but the number and type of arguments should be different
+  Eg: upper_bound(arr, key);
+      upper_bound(arr.begin(), arr.end(), key)
+* If we are calculating frequency then for STL methods, +1 need not be done as upper_bound() returns an iterator to the next element

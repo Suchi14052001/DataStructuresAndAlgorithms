@@ -1,0 +1,8 @@
+* Binary search is a divide and conquer algorithm
+* Efficient searching algorithm to find index of an element in a sorted input array 
+* We reduce the size of array /2 each time. Finally we end up with either one or zero elements
+* Number of steps taken to approach the final result is log N to the base 2. Hence has logarithmic complexity
+* For us to apply binary search, we should have monotonic search space
+* Monotonic search space means that using binary search space, in some way you can discard either right part or left part
+* Binary search can be applied on non-decreasing or non-increasing functions
+* Ternary search does more comparisons than binary search in worst case
