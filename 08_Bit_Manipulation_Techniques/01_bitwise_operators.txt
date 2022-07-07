@@ -1,0 +1,18 @@
+Bitwise operators are generated used as they are faster than the non-bitwise operators as they act on the binary level representation of data
+* BINARY AND &
+* BINARY OR |
+* BINARY XOR ^ or called Exclusive OR -> If both bits are the same, then result is going to be zero
+* BINARY ONE's COMPLEMENT ~ or called NOT -> Flips all the bits including most significant bit called sign bit (right most)
+   - If MSB is 1, it represents a negative number
+   - To find magnitude, flip all the bits then add one to it
+   - Stored in two's complement form
+   - If 0 is a bit, then ~0 gives 1; Else if 0 is an integer, then ~0 gives -1 as output 
+* BINARY LEFT SHIFT <<
+   - If we need to do 5 << 2
+     0000101 << 2
+     0010100
+   - Doing a left shift by x, multiplies the original number by 2^x 
+* BINARY RIGHT SHIFT >>
+   - Divides number by 2^x
+   - 001010 >> 1
+     000101

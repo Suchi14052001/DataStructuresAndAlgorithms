@@ -1,0 +1,10 @@
+* Recursion executes in depth first manner (Left to Right)
+* Should have base case and recursive case
+   * To define a function "Go to home",
+     Base case:      If you are already at home, stop moving
+     Recursive case: Take one step towards home, call "Go to home"
+* Calls to functions will be stored in the call stack. After returning, stack frames get popped out one by one from above
+* To solve a recursive problem
+   * Figure out the smallest case
+   * Always assume that the subproblem will get solved
+   * Solve the current problem assuming subproblem solution exists
