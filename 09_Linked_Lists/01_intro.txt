@@ -1,0 +1,23 @@
+* Nodes can be allocated dynamically, When large linear memory is not available - this can be used
+* Useful in graph related problems, Newslist in a Facebook feed
+* Node is created in heap memory
+* Addresses will be hexadecimal addresses
+
+template<typename T> // T is the datatype of elements stored in Linked list
+class Node{
+	T data;
+	Node<T> *next;
+	
+	public:
+		Node(T data){
+			this->data = data;
+			next = NULL;
+		}
+}
+
+Node<int> *n = new Node<int>(10); // To create a node in main
+
+* Runner technique to find midpoint of a node - Generally used in Linked lists 
+  Have two runners - fast runner and slow runner
+  - Fast runner runs at 2X speed and slow runner runs at X speed. 
+  - So when fast runner reaches the end of the linked list, slow runner reaches midpoint of the linked list
