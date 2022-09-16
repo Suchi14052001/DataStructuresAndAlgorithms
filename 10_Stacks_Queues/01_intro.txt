@@ -1,0 +1,24 @@
+Stacks, Queues and Deque (Doubly ended Queue)
+
+1. Stack can mean implicit stack (call stack) or explicit stack
+   LIFO	
+   Push is an O(1) operation
+   Pop is also O(1) operation
+   Top gives the topmost element - O(1) operation
+   
+2. Queue
+   FIFO
+   Front and rear of the queue
+   Insertion of new data happens at the rear end of the queue
+   Popping at the front end of the queue
+   Push - O(1) operation, Pop - O(1) operation, Front - O(1) operation
+   
+3. Deque 
+   Can perform insertion and deletion at both the ends
+   Has two pointers front and rear
+   Push_Back, Pop_Back, Push_Front, Pop_Front
+   Front and Back methods to look at which element is present at Front and Back respectively
+   Can be useful in sliding window type of problems
+   
+Iterative solutions to recursive problems can be written using stack
+Problems involving trees and graphs make extensive use of queues especially BFS or level order traversal
